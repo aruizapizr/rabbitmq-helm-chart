@@ -16,3 +16,7 @@ metrics:
   image: null
   exporter:
     enabled: false
+
+serviceAccount:
+  create: true
+  name: rabbitmq-service-account
